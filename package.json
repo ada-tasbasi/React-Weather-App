@@ -1,0 +1,28 @@
+{
+  "name": "react-weather-app",
+  "version": "1.0.0",
+  "description": "a react weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ada-tasbasi/React-Weather-App.git"
+  },
+  "author": "stoyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ada-tasbasi/React-Weather-App/issues"
+  },
+  "homepage": "https://github.com/ada-tasbasi/React-Weather-App#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "pg": "^7.10.0"
+  }
+}
