@@ -1,5 +1,5 @@
 const request = require("request-promise"),
-      API_Key; //Openweather API key
+    API_Key = 'ebbc745e95c259c9682238c1b5953896';//Openweather API key
 
 class Weather {
      static retrieveCity(city, callback){
