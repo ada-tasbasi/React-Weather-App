@@ -1,5 +1,4 @@
 const {Pool} = require('pg'),
-      password; //psql password
 
 const CONNECTION_STRING = process.env.DATABASE_URL || 'postgresql://postgres:catharsis9@localhost:5432/weather-db',
       SSL = process.env.NODE_ENV === 'production';
