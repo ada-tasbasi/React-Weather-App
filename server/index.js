@@ -11,10 +11,6 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-app.get("/", (req,res)=>{
-    res.send("<h2>Hello World</h2>")
-})
-
 app.use('/api/cities', require('./api/cities'));
 app.use('/api/weather', require('./api/weather'));
 
